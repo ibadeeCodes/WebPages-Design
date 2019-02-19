@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'Roboto', sans-serif;
+}
+.main
+{
+	max-width:1080px;
+	min-width:800px;
+	width:100%;
+	margin:0 auto;
+}
+.clr
+{
+	clear:both;
+}
+.header
+{
+	background-color:#fff;
+}
+.logo
+{
+	float:left;
+}
+.logo img
+{
+	padding:20px 0px;	
+}
+.menu
+{	
+	float:left;	
+}
+.menu ul
+{
+	float:right;
+	padding-top:30px;			
+}
+.menu li
+{
+	float:left;
+	list-style:none;	
+	padding-left:15px;
+}
+.menu li a
+{
+	text-decoration:none;		
+	color: #000;
+	text-transform: capitalize;
+	padding: 4px 20px;
+	display:block;
+}
+.menu li a:hover
+{
+	color:#fff;
+	background-color:#fe4b01;
+}
+.contact
+{	
+	float:right;
+}
+.contact p
+{
+	background:#fe4b01;
+	padding:18px 20px;	
+	color:#fff;
+}
+.contact p span
+{
+	background-color:#000;
+	padding:18px;
+}
+.banner
+{
+	background:url(../img/contentimg.png) no-repeat center;
+	height: 740px;
+	background-size:cover;
+}
+.para
+{
+	padding-top:300px;	
+	width:500px;
+}
+.para h1
+{
+	color:#fff;
+}
+.para p
+{
+	color:#fff;	
+}
+.slider
+{
+	
+}
+.slider ul
+{
+	float:left;	
+	padding: 220px 0px 0px 0px;
+}
+.slider li
+{
+	list-style:none;
+	float:right;
+	padding:5px;
+}
+.banner-tab 
+{
+	list-style:none;
+	padding:77px;
+}
+.box-icon-menu:hover
+{
+
+    transform: scale(1.1);
+    background: #fe5701;
+	color:#fff;
+
+}
+.box-icon-menu
+{
+    float: left;
+    padding: 18px;
+    background-color: #D4D4D4;
+    margin: 13px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 8px -2px;
+    text-align: center;
+    width: 190px;
+    transition: 0.3s;
+	border-radius:8px;
+}
+.box-icon-menu h4
+{
+	text-transform:capitalize;
+	padding:20px 0px;	
+}
+.box-icon-menu img
+{
+	width: 42%;
+}
+.box-icon-menu:hover img {
+    filter: brightness(0) invert(1);
+}
+.banner-2
+{
+	background:url(../img/bannerimg.png) no-repeat;
+	background-color:#eae6e6;
+	height:626px;
+	width:100%;
+}
+.banner-text
+{
+	padding: 179px 0 13px 558px;
+}
+.banner-text h1
+{
+	color:#fe4b01;
+}
+.banner-strip
+{
+	background-color:#fe4b01;
+}
+.banner-strip h1
+{
+	text-align:center;
+	padding:30px 30px;
+}
+.blog
+{
+		
+}
+.blog-text
+{
+	text-align:center;
+	padding: 40px;
+	color:#fe4b01;
+}
+.blog-list {
+
+    float: right;
+    margin: 0px;
+    padding: 24px 25px;
+    height: 340px;
+    background-color: whitesmoke;
+	margin-top: 30px;
+}
+.blog-list img
+{
+
+}
+.blog-list h4
+{
+	
+}
+.blog-list h3
+{
+	padding: 15px;
+	padding-left:1px;
+	color:#fe4b01;
+}
+.blog-list a 
+{
+    padding: 10px 18px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 13px;
+}
+.blog-list a:hover
+{
+	background-color:#fe4b01;
+	padding:15px;
+	display:inline-block;
+}
+.footer
+{
+	background: url(../img/footer.png) no-repeat center / cover;
+}
+.footer-area-left
+{
+	float:left;
+	width:400px;
+}
+.fotter-right-area{
+	float:right;
+	width:680px;
+}
+.contact-fot img {
+
+    float: left;
+    margin-right: 10px;
+
+}
+.contact-fot p {
+
+    padding: 8px 0;
+	color:#fff;
+
+}
+.contact-fot h1
+{
+	color:#fff;
+}
+.fotter-bot
+{
+	text-align:center;
+}
+.fotter-bot p
+{
+	margin-bottom: 34px;
+	color:#fff;
+}
+.footer_box2 {
+    float: right;
+    width: 60%;
+}
+.footer_box2 input {
+
+    width: 97%;
+    background: no-repeat;
+    padding: 10px;
+    color: whitesmoke;
+    border: solid 1px whitesmoke;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.footer_box2 textarea {
+
+    width: 97%;
+    background: no-repeat;
+    padding: 10px;
+    color: whitesmoke;
+    border: solid 1px whitesmoke;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.footer_box2 label input {
+
+    width: 48.3%;
+    background: no-repeat;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    border: solid 1px whitesmoke;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.
+.footer_box2 ::placeholder{
+	color:#fff;
+}
+.footer_box2 ::placeholder{
+	color:#fff;
+}
+.footer_box2 button {
+
+    background: none;
+    color: #FFF;
+    padding: 10px 30px;
+    border: solid 1px #FFF;
+    font-size: 20px;
+
+}

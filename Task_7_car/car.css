@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'Roboto', sans-serif;	
+}
+.main
+{
+	max-width:1100px;
+	min-width:800px;
+	width:100%;
+	margin:0 auto;		
+}
+.clr
+{
+	clear:both;	
+}
+#header
+{
+	background:url(img/header-bg.png) no-repeat center / cover;
+	padding:15px 0px;
+	border-bottom: 4px solid #797979;
+}
+.logo
+{
+	float:left;
+}
+.menu
+{
+	float:left;	
+	padding: 9px 30px;
+}
+.menu li
+{
+	float:left;
+	list-style:none;		
+	
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0px 42px 24px 21px;
+    color: #000;
+    font-size: 18px;
+}
+.menu li a:hover
+{
+	border-bottom:4px solid red;
+}
+.menu li span
+{
+	text-transform:uppercase;
+}
+.social
+{
+	float:right;
+	padding: 0px 65px;
+}
+.phone img
+{
+	float:left;
+	background-color:#FF0004;
+	border-radius: 68px;
+	height: 32px;
+}
+.phone p
+{
+	float:right;
+	padding: 5px 5px;
+}
+.right
+{
+	float:right;
+}
+.banner
+{
+	background:url(img/b1-bg.png) no-repeat center / cover;
+	padding: 217px 0px;
+	text-align: center;
+}
+.details
+{
+	font-size: 19px;
+	padding: 30px 0px;
+	background-color: rgba(0,0,0,0.70);
+	color:#fff;
+}
+.dots
+{
+	padding: 44px 0px 0px 0px;
+}
+.dots img:hover
+{
+	background-image:url(img/sl-dots-h.png);
+}
+.banner2
+{
+}
+.box
+{
+	float: left;
+	text-align: center;
+	width:366px;
+	padding: 20px 0px;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+.box:hover img
+{
+	display:none;	
+}
+.hover{
+	display: none;
+}
+.box:hover .hover{
+	display:inline-block;
+}
+.box:hover
+{
+	background-color:#f4dfe0;
+}
+.readmore:hover{
+	background-color:#212121;	
+}
+.readmore {
+    padding: 8px 0px;
+    background-color: #808080;
+    width: 95px;
+    margin: 14px auto;
+    border-radius: 20px;
+    color: #fff;
+}
+.banner3{
+	background-image: url(../tasks/task-7/img/b3bg.png);
+	padding: 77px 0px;
+	color: #fff
+}
+.b3img
+{
+	float:left;
+}
+.b3img img
+{
+	padding: 0px 25px;
+}
+.text
+{
+	padding:40px 0px;	
+}
+.footer
+{
+	
+}
+.textleft
+{
+	float:left;
+}
+.lorem
+{
+	float:left;
+	width:300px;
+}
+.social
+{
+	float:left;
+}

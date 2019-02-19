@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+}
+.clr
+{
+	clear:both;
+}
+.main
+{
+	width: 1200px;
+    margin: 0 auto;
+}
+.logo
+{
+	float:left;
+}
+.logo h1 {
+
+    color: #16a11b;
+    padding: 14px 0px;
+    font-size: 35px;
+
+}
+#header
+{
+	background-image:url(../tasks/task-2/img/Untitled-1.jpg);
+}
+.menu
+{
+	float:right;
+}
+.menu li
+{
+	float:left;
+	list-style:none;
+}
+.menu li a
+{
+	padding:26px 16px;
+	text-decoration:none;
+	color:#868282;
+	text-transform:uppercase;
+	display: inline-block;
+	transition:0.3s;
+}
+.menu li a:hover
+{
+	color:#ffffff;
+	background:#308735;
+}
+.slider
+{
+    background:url(../tasks/task-2/img/1.jpg) no-repeat center / cover;
+}
+.para
+{
+	padding:40px 0px;
+}
+.shadow
+{
+    background-color: rgba(182,184,185,0.80);
+    position: relative;
+    width: 24%;
+    padding: 200px 202px;
+
+}
+.list
+{
+	float:right;
+}
+.list ul
+{
+	
+}
+.list li 
+{
+	
+	list-style:none;		
+}
+.list li a 
+{
+	text-decoration:none;
+	text-transform:capitalize;		
+}
+.list li a:hover 
+{
+	
+}
+.para2
+{
+	float:left;
+}
+.para2 h1
+{
+	color:#A77273;
+	padding: 20px 0;
+}
+.para2 p
+{
+	padding:50px 0px;
+	font-size:16px;
+}
+.banner
+{
+	background-image:url(../tasks/task-2/img/12.jpg);
+}
+.footer-box {
+    float: right;
+    padding: 10px 78px 0px 0px;
+}
+.list ul{
+	margin:40px;
+	list-style:none;
+	padding:0px;
+}
+.list li a {
+    border: solid grey;
+    line-height: 30px;
+    display: inline-block;
+    width: 380px;
+    text-decoration: none;
+    padding: 6px;
+    margin-bottom: 12px;
+	color:#262626;
+}
+.list li a:hover{
+	background:#1a9d17;
+}
+.footpara p
+{
+	float:left;	
+	line-height:34px;
+}
+.footer2 {
+
+    text-align: center;
+	background:linear-gradient()
+
+}
+.follow
+{
+	
+}
+.icons
+{
+	float:right;	
+}
+.icons li
+{
+	float:left;
+	list-style:none;
+}
+.follow li a
+{
+	
+}
+.footer2
+{
+	
+}
+.footer2 a
+{
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.footer1 
+{
+    padding: 20px 0px;
+    background: linear-gradient(to right, #fb0606 , #5521e3 , #060606 , #9e0397);
+}
+.footer2
+{
+	padding:20px 0px;
+	background-image:url(../tasks/task-2/img/Untitled-1.jpg);
+}
+.footer2 a
+{
+	color:#FFF;
+}
+
